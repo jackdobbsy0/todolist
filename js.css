@@ -1,0 +1,73 @@
+body {
+	background: linear-gradient(to right, rgb(0, 74, 255), rgb(102, 240, 0));
+}
+
+#page-banner {
+	font-family: courier;
+	background: #eee;
+	border: solid white 5px;
+	padding: 10px;
+	background-image: url(https://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg);
+}
+
+h1 {
+	text-decoration: underline;
+}
+
+#page-banner h1, #page-banner h3 {
+	width: 100%;
+	text-align: center;
+	margin: 10px;
+}
+
+#image {
+	color: white;
+	font-family: fantasy;
+	background-image: url(http://www.planwallpaper.com/static/images/6986083-waterfall-images_Mc3SaMS.jpg);
+	background-size: cover;
+	color: none;
+	border: solid white 5px;
+}
+
+#search-bar {
+	border: solid white 5px;
+	background-image: url(https://static.pexels.com/photos/67843/splashing-splash-aqua-water-67843.jpeg);
+}
+
+#search-bar h4 {
+	text-align: center;
+	color: white;
+}
+
+#search-bar input, #search-bar button {
+    width: 90%;
+    max-width: 250px;
+    margin: 10px auto;
+    display: block;
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #lig;
+}
+
+#delete-buttons {
+	color: white;
+	font-family: courier;
+	text-align: center;
+	font-size: 20px;
+	border: solid white 5px;
+	background-image: url(https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg);
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+li {
+	list-style-type: none;
+}
